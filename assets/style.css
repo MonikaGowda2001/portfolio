@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+nav{
+    height: 60px;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>a{
+    font-family: open Sans;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
+nav>a:hover{
+    font-weight: bold;
+    font-weight: #a862ff;
+
+}
+
+
+.profile{
+    background: url(./portfolio-bg.png);
+    height: 650px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.profile img{
+    width: 250px;
+    border-radius: 150px;
+}
+
+.profile p{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 54px;
+    margin-top: 25px;
+}
+
+
+#profile span{
+    width: 310px;
+    font-family: "open sans";
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.profile button{
+    width: 150px;
+    background: none;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    margin: 30px;
+}
+
+.profile a{
+    font-family: "poppins";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.profile button:hover{
+    box-shadow: 0px 1px 2px 0px white;
+}
+
+
+ 
+ .about,.skills,.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 30px;
+ }
+
+ #about{
+    height: 300px;
+    background-color: #1e1e1e;
+}
+
+h2{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 36px;
+
+}
+.about-text,.icons{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 1200px;
+}
+
+
+.about-text,.skills,.card,.Lets-Talk span,.copyright{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.about-text>p{
+    width: 300px;
+    text-align: center;
+}
+
+
+.skills{
+    height: 500px;
+    background-color: #121212;
+}
+
+
+.progress{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.progress>progress{
+    width: 400px;
+}
+
+
+.Lets-Talk{
+    height: 300px;
+    background-color: #121212;
+    text-align: center;
+
+}
+
+.Lets-Talk span{
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.Lets-Talk a{
+    width: 150px;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #a862ff;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.copyright{
+    margin-top: 50px;
+    text-align: center;
+}
